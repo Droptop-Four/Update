@@ -2,7 +2,8 @@
 
 DefaultFont=Droptop Roboto
 
-; IconStyles
+;    IconStyles
+
 ;    1 = Default
 ;    2 = MacOS
 ;    3 = 8-bit
@@ -11,7 +12,7 @@ DefaultFont=Droptop Roboto
 ; -----------------------
 ; 1. Default
 
-FontYposOffset1=0
+FontYposOffset1=(0*(([#AltFont[#LanguageNum]]-1)*-1))
 FontSizeOffset1=0
 IconSizeOffset1=0
 TitleSpaOffset1=0
@@ -43,10 +44,12 @@ LanguageStyle1=#IconStyle1#
 AppDrawerStyle1=#IconStyle1#
 AssistantStyle1=#IconStyle1#
 
+DropdownSliderStyle1=1
+
 ; -----------------------
 ; 2. Color Match
 
-FontYposOffset2=0
+FontYposOffset2=(0*(([#AltFont[#LanguageNum]]-1)*-1))
 FontSizeOffset2=0
 IconSizeOffset2=0
 TitleSpaOffset2=0
@@ -78,6 +81,8 @@ LanguageStyle2=#IconStyle2#
 AppDrawerStyle2=#IconStyle2#
 AssistantStyle2=#IconStyle2#
 
+DropdownSliderStyle2=1
+
 ; -----------------------
 ; 3. Retro
 
@@ -86,7 +91,7 @@ FontSizeOffset3=0
 IconSizeOffset3=0
 TitleSpaOffset3=0
 
-FontName30=Pixel Cyr
+FontName30=Retro Gaming
 
 FontName31=#DefaultFont#
 TopBarFontName3=[#FontName[#ThemeNum][#AltFont[#LanguageNum]]]
@@ -113,10 +118,12 @@ LanguageStyle3=#IconStyle3#
 AppDrawerStyle3=#IconStyle3#
 AssistantStyle3=#IconStyle3#
 
+DropdownSliderStyle3=3
+
 ; -----------------------
 ; 4. Cathode
 
-FontYposOffset4=0
+FontYposOffset4=(1*(([#AltFont[#LanguageNum]]-1)*-1))
 FontSizeOffset4=0
 IconSizeOffset4=0
 TitleSpaOffset4=0
@@ -126,7 +133,7 @@ FontName40=Glass TTY VT220
 FontName41=#DefaultFont#
 TopBarFontName4=[#FontName[#ThemeNum][#AltFont[#LanguageNum]]]
 
-IconStyle4=1
+IconStyle4=2
 
 NewDesktopStyle4=#IconStyle4#
 ActionStyle4=#IconStyle4#
@@ -148,15 +155,17 @@ LanguageStyle4=#IconStyle4#
 AppDrawerStyle4=#IconStyle4#
 AssistantStyle4=#IconStyle4#
 
+DropdownSliderStyle4=2
+
 ; -----------------------
 ; 5. Flat & Solid
 
-FontYposOffset5=0
+FontYposOffset5=(0*(([#AltFont[#LanguageNum]]-1)*-1))
 FontSizeOffset5=0
 IconSizeOffset5=0
 TitleSpaOffset5=0
 
-FontName50=FF DIN Round Pro
+FontName50=Open Sans
 
 FontName51=#DefaultFont#
 TopBarFontName5=[#FontName[#ThemeNum][#AltFont[#LanguageNum]]]
@@ -183,10 +192,12 @@ LanguageStyle5=#IconStyle5#
 AppDrawerStyle5=#IconStyle5#
 AssistantStyle5=#IconStyle5#
 
+DropdownSliderStyle5=1
+
 ; -----------------------
 ; 6. Transparent
 
-FontYposOffset6=0
+FontYposOffset6=(0*(([#AltFont[#LanguageNum]]-1)*-1))
 FontSizeOffset6=0
 IconSizeOffset6=0
 TitleSpaOffset6=0
@@ -196,7 +207,7 @@ FontName60=Open Sans
 FontName61=#DefaultFont#
 TopBarFontName6=[#FontName[#ThemeNum][#AltFont[#LanguageNum]]]
 
-IconStyle6=1
+IconStyle6=2
 
 NewDesktopStyle6=#IconStyle6#
 ActionStyle6=#IconStyle6#
@@ -218,10 +229,12 @@ LanguageStyle6=#IconStyle6#
 AppDrawerStyle6=#IconStyle6#
 AssistantStyle6=#IconStyle6#
 
+DropdownSliderStyle6=1
+
 ; -----------------------
 ; 7. Dapill
 
-FontYposOffset7=0
+FontYposOffset7=(0*(([#AltFont[#LanguageNum]]-1)*-1))
 FontSizeOffset7=0
 IconSizeOffset7=0
 TitleSpaOffset7=0
@@ -231,7 +244,7 @@ FontName70=FF DIN Round Pro
 FontName71=#DefaultFont#
 TopBarFontName7=[#FontName[#ThemeNum][#AltFont[#LanguageNum]]]
 
-IconStyle7=1
+IconStyle7=3
 
 NewDesktopStyle7=#IconStyle7#
 ActionStyle7=#IconStyle7#
@@ -253,10 +266,12 @@ LanguageStyle7=#IconStyle7#
 AppDrawerStyle7=#IconStyle7#
 AssistantStyle7=#IconStyle7#
 
+DropdownSliderStyle7=1
+
 ; -----------------------
 ; 8. Ubuntu
 
-FontYposOffset8=0
+FontYposOffset8=(0*(([#AltFont[#LanguageNum]]-1)*-1))
 FontSizeOffset8=0
 IconSizeOffset8=0
 TitleSpaOffset8=0
@@ -288,10 +303,12 @@ LanguageStyle8=#IconStyle8#
 AppDrawerStyle8=#IconStyle8#
 AssistantStyle8=#IconStyle8#
 
+DropdownSliderStyle8=1
+
 ; -----------------------
 ; 9. Windows 95
 
-FontYposOffset9=0
+FontYposOffset9=(0*(([#AltFont[#LanguageNum]]-1)*-1))
 FontSizeOffset9=0
 IconSizeOffset9=0
 TitleSpaOffset9=0
@@ -301,7 +318,7 @@ FontName90=Microsoft Sans Serif
 FontName91=#DefaultFont#
 TopBarFontName9=[#FontName[#ThemeNum][#AltFont[#LanguageNum]]]
 
-IconStyle9=1
+IconStyle9=2
 
 NewDesktopStyle9=#IconStyle9#
 ActionStyle9=#IconStyle9#
@@ -323,10 +340,12 @@ LanguageStyle9=#IconStyle9#
 AppDrawerStyle9=#IconStyle9#
 AssistantStyle9=#IconStyle9#
 
+DropdownSliderStyle9=1
+
 ; -----------------------
 ; 10. Catalina
 
-FontYposOffset10=0
+FontYposOffset10=(0*(([#AltFont[#LanguageNum]]-1)*-1))
 FontSizeOffset10=0
 IconSizeOffset10=0
 TitleSpaOffset10=0
@@ -358,10 +377,12 @@ LanguageStyle10=#IconStyle10#
 AppDrawerStyle10=#IconStyle10#
 AssistantStyle10=#IconStyle10#
 
+DropdownSliderStyle10=2
+
 ; -----------------------
 ; 11. Big Sur
 
-FontYposOffset11=0
+FontYposOffset11=(0*(([#AltFont[#LanguageNum]]-1)*-1))
 FontSizeOffset11=0
 IconSizeOffset11=0
 TitleSpaOffset11=0
@@ -393,10 +414,12 @@ LanguageStyle11=#IconStyle11#
 AppDrawerStyle11=#IconStyle11#
 AssistantStyle11=#IconStyle11#
 
+DropdownSliderStyle11=1
+
 ; -----------------------
 ; 12. Chrome OS
 
-FontYposOffset12=0
+FontYposOffset12=(1*(([#AltFont[#LanguageNum]]-1)*-1))
 FontSizeOffset12=0
 IconSizeOffset12=0
 TitleSpaOffset12=0
@@ -428,15 +451,17 @@ LanguageStyle12=#IconStyle12#
 AppDrawerStyle12=#IconStyle12#
 AssistantStyle12=#IconStyle12#
 
+DropdownSliderStyle12=3
+
 ; -----------------------
 ; 13. Minimalist
 
-FontYposOffset13=0
+FontYposOffset13=(0*(([#AltFont[#LanguageNum]]-1)*-1))
 FontSizeOffset13=0
 IconSizeOffset13=0
 TitleSpaOffset13=0
 
-FontName130=Droptop Roboto
+FontName130=Open Sans
 
 FontName131=#DefaultFont#
 TopBarFontName13=[#FontName[#ThemeNum][#AltFont[#LanguageNum]]]
@@ -463,10 +488,12 @@ LanguageStyle13=#IconStyle13#
 AppDrawerStyle13=#IconStyle13#
 AssistantStyle13=#IconStyle13#
 
+DropdownSliderStyle13=3
+
 ; -----------------------
 ; 14. Aperture Science
 
-FontYposOffset14=0
+FontYposOffset14=(0*(([#AltFont[#LanguageNum]]-1)*-1))
 FontSizeOffset14=0
 IconSizeOffset14=0
 TitleSpaOffset14=0
@@ -498,10 +525,12 @@ LanguageStyle14=#IconStyle14#
 AppDrawerStyle14=#IconStyle14#
 AssistantStyle14=#IconStyle14#
 
-; -----------------------
-; 15. Classic
+DropdownSliderStyle14=2
 
-FontYposOffset15=0
+; -----------------------
+; 15. Windows 11
+
+FontYposOffset15=(0*(([#AltFont[#LanguageNum]]-1)*-1))
 FontSizeOffset15=0
 IconSizeOffset15=0
 TitleSpaOffset15=0
@@ -533,10 +562,12 @@ LanguageStyle15=#IconStyle15#
 AppDrawerStyle15=#IconStyle15#
 AssistantStyle15=#IconStyle15#
 
+DropdownSliderStyle15=2
+
 ; -----------------------
 ; 16. Elementary OS
 
-FontYposOffset16=0
+FontYposOffset16=(0*(([#AltFont[#LanguageNum]]-1)*-1))
 FontSizeOffset16=0
 IconSizeOffset16=0
 TitleSpaOffset16=0
@@ -568,10 +599,12 @@ LanguageStyle16=#IconStyle16#
 AppDrawerStyle16=#IconStyle16#
 AssistantStyle16=#IconStyle16#
 
+DropdownSliderStyle16=2
+
 ; -----------------------
 ; 17. Tranquil
 
-FontYposOffset17=0
+FontYposOffset17=(1*(([#AltFont[#LanguageNum]]-1)*-1))
 FontSizeOffset17=0
 IconSizeOffset17=0
 TitleSpaOffset17=0
@@ -603,10 +636,12 @@ LanguageStyle17=#IconStyle17#
 AppDrawerStyle17=#IconStyle17#
 AssistantStyle17=#IconStyle17#
 
+DropdownSliderStyle17=3
+
 ; -----------------------
 ; 18. Macintosh
 
-FontYposOffset18=0
+FontYposOffset18=(1*(([#AltFont[#LanguageNum]]-1)*-1))
 FontSizeOffset18=0
 IconSizeOffset18=0
 TitleSpaOffset18=0
@@ -638,15 +673,17 @@ LanguageStyle18=#IconStyle18#
 AppDrawerStyle18=#IconStyle18#
 AssistantStyle18=#IconStyle18#
 
+DropdownSliderStyle18=2
+
 ; -----------------------
 ; 19. Gameboy
 
-FontYposOffset19=0
+FontYposOffset19=(1*(([#AltFont[#LanguageNum]]-1)*-1))
 FontSizeOffset19=0
 IconSizeOffset19=0
 TitleSpaOffset19=0
 
-FontName190=Diary of an 8-bit mage
+FontName190=Nineteen Eighty Seven
 
 FontName191=#DefaultFont#
 TopBarFontName19=[#FontName[#ThemeNum][#AltFont[#LanguageNum]]]
@@ -673,10 +710,12 @@ LanguageStyle19=#IconStyle19#
 AppDrawerStyle19=#IconStyle19#
 AssistantStyle19=#IconStyle19#
 
+DropdownSliderStyle19=3
+
 ; -----------------------
 ; 20. Terminal
 
-FontYposOffset20=0
+FontYposOffset20=(0*(([#AltFont[#LanguageNum]]-1)*-1))
 FontSizeOffset20=0
 IconSizeOffset20=0
 TitleSpaOffset20=0
@@ -708,10 +747,12 @@ LanguageStyle20=#IconStyle20#
 AppDrawerStyle20=#IconStyle20#
 AssistantStyle20=#IconStyle20#
 
+DropdownSliderStyle20=2
+
 ; -----------------------
 ; 21. Senja
 
-FontYposOffset21=0
+FontYposOffset21=(1*(([#AltFont[#LanguageNum]]-1)*-1))
 FontSizeOffset21=0
 IconSizeOffset21=0
 TitleSpaOffset21=0
@@ -743,10 +784,12 @@ LanguageStyle21=#IconStyle21#
 AppDrawerStyle21=#IconStyle21#
 AssistantStyle21=#IconStyle21#
 
+DropdownSliderStyle21=1
+
 ; -----------------------
 ; 22. Discord
 
-FontYposOffset22=0
+FontYposOffset22=(0*(([#AltFont[#LanguageNum]]-1)*-1))
 FontSizeOffset22=0
 IconSizeOffset22=0
 TitleSpaOffset22=0
@@ -777,5 +820,7 @@ ExchangeStyle22=#IconStyle22#
 LanguageStyle22=#IconStyle22#
 AppDrawerStyle22=#IconStyle22#
 AssistantStyle22=#IconStyle22#
+
+DropdownSliderStyle22=3
 
 ; -----------------------

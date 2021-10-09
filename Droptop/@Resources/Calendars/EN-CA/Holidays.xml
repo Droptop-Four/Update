@@ -37,12 +37,10 @@
 	<Set Month="7">
 		<Event Day="1" Year="1867" Anniversary="true">Canada Day</Event>
 		<Event Day="9">Nunavut Day (NU)</Event>
-		<Event Day="{$ThirdSun}">Father's Day</Event>
 	</Set>
 	<Set Month="8">
 		<Event Day="{$FirstMon}">Civic Holday (AB, BC, SK, ON, NB, NU)</Event>
 		<Event Day="{$ThirdMon}">Discovery Day (YT)</Event>
-		<Event Day="{$ThirdSun}">Father's Day</Event>
 	</Set>
 	<Set Month="9">
 		<Event Day="{$FirstMon}">Labour Day</Event>
