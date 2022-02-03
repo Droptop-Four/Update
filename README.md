@@ -28,7 +28,7 @@
 
 <!-- DROPTOPFOUR DOWNLOAD UPDATE -->
 <p align="center">
-    <a href="https://github.com/Droptop-Four/Basic-Version/releases/tag/Current-Stable"><img
+    <a href="https://github.com/Droptop-Four/Update/releases/tag/Update/latest"><img
             src="https://img.shields.io/static/v1?label=Download&message=Update&color=A3D6E7&style=for-the-badge" alt="Download Droptop Four"></a>
 </p>  
 
